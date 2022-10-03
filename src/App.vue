@@ -1,12 +1,17 @@
 <script>
+  import Signup from './components/Signup.vue';
+
   export default{
-    name : 'App'
+  
+    name : 'App',
+    components :{Signup}
   }
 
 </script>
 
 <template>
-  <h1>Web form</h1>
+  
+  <Signup />
   
 </template>
 
